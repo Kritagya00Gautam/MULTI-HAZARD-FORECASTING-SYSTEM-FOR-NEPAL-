@@ -1,0 +1,16 @@
+#district77.geojson
+
+curl --url ^"https://dhm.gov.np/assets/frontend/geo/district77.geojson^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"Referer: https://dhm.gov.np/hydrology/river-watch^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0^" ^
+  -H ^"sec-ch-ua: ^\^"Chromium^\^";v=^\^"152^\^", ^\^"Not?A_Brand^\^";v=^\^"24^\^", ^\^"Microsoft Edge^\^";v=^\^"152^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^"
+
+curl --url ^"https://dhm.gov.np/assets/frontend/geo/River_All.geojson^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"Referer: https://dhm.gov.np/hydrology/river-watch^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0^" ^
+  -H ^"sec-ch-ua: ^\^"Chromium^\^";v=^\^"152^\^", ^\^"Not?A_Brand^\^";v=^\^"24^\^", ^\^"Microsoft Edge^\^";v=^\^"152^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^"
+
