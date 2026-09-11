@@ -1,0 +1,2 @@
+# MULTI-HAZARD-FORECASTING-SYSTEM-FOR-NEPAL-
+just wanna do something 
