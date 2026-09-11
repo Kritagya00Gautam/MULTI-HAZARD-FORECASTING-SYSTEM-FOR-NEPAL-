@@ -32,3 +32,20 @@ class Fetched:
             else(self.body_text or "")
         )
         return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+@dataclass
+class Reject:
+    reason : str
+    payload : dict
+
+@dataclass
+class RunStats:
+    fetched: int = 0
+    written: int = 0
+    rejected: int = 0
+    rejects: list[Reject] = field(default_factory=list)
+
+class Connector(ABC):
+    source_id : str
+    overlap: timedelta = timedelta(hours=6)
+    cold_start : timedelta = timedelta(days = 30)
+    
